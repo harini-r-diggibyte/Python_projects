@@ -4,6 +4,10 @@ def mutate_string(s, p, c):
     str1 = "".join(l1)
     return str1
 
+
+
+
+
 if __name__ == '__main__':
     s = input()
     i, c = input().split()
