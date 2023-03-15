@@ -1,0 +1,373 @@
+This code prompts for an odd number as input.
+Based on the input, which is taken as thickness creates an hacker rank logo using the rjust,ljust,center.
+rjust,ljust,center deals with the alignment of string in Python.
+
+##Test case 1:
+    - (stdin)i/p      - 5
+    - (stdout)o/p     -
+    H
+   HHH
+  HHHHH
+ HHHHHHH
+HHHHHHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHHHHHHHHHHHHHHHHHHHHHH
+  HHHHHHHHHHHHHHHHHHHHHHHHH
+  HHHHHHHHHHHHHHHHHHHHHHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+                    HHHHHHHHH
+                     HHHHHHH
+                      HHHHH
+                       HHH
+                        H
+    - Expected output -
+    H
+   HHH
+  HHHHH
+ HHHHHHH
+HHHHHHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHHHHHHHHHHHHHHHHHHHHHH
+  HHHHHHHHHHHHHHHHHHHHHHHHH
+  HHHHHHHHHHHHHHHHHHHHHHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+  HHHHH               HHHHH
+                    HHHHHHHHH
+                     HHHHHHH
+                      HHHHH
+                       HHH
+                        H
+Expected output is same as output received from the code.
+
+## Test case 2:
+    - (stdin)i/p    - 3
+    - (stdout)o/p   -
+  H
+ HHH
+HHHHH
+ HHH         HHH
+ HHH         HHH
+ HHH         HHH
+ HHH         HHH
+ HHHHHHHHHHHHHHH
+ HHHHHHHHHHHHHHH
+ HHH         HHH
+ HHH         HHH
+ HHH         HHH
+ HHH         HHH
+            HHHHH
+             HHH
+              H
+    - Expected Output   -
+  H
+ HHH
+HHHHH
+ HHH         HHH
+ HHH         HHH
+ HHH         HHH
+ HHH         HHH
+ HHHHHHHHHHHHHHH
+ HHHHHHHHHHHHHHH
+ HHH         HHH
+ HHH         HHH
+ HHH         HHH
+ HHH         HHH
+            HHHHH
+             HHH
+              H
+ Expected output is same as output received from the code.
+
+ ##Test case 3:
+    - (stdin)i/p    -9
+    - (stdout)o/p   -
+        H
+       HHH
+      HHHHH
+     HHHHHHH
+    HHHHHHHHH
+   HHHHHHHHHHH
+  HHHHHHHHHHHHH
+ HHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+                                    HHHHHHHHHHHHHHHHH
+                                     HHHHHHHHHHHHHHH
+                                      HHHHHHHHHHHHH
+                                       HHHHHHHHHHH
+                                        HHHHHHHHH
+                                         HHHHHHH
+                                          HHHHH
+                                           HHH
+                                            H
+        - Expected Output   -
+        H
+       HHH
+      HHHHH
+     HHHHHHH
+    HHHHHHHHH
+   HHHHHHHHHHH
+  HHHHHHHHHHHHH
+ HHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+    HHHHHHHHH                           HHHHHHHHH
+                                    HHHHHHHHHHHHHHHHH
+                                     HHHHHHHHHHHHHHH
+                                      HHHHHHHHHHHHH
+                                       HHHHHHHHHHH
+                                        HHHHHHHHH
+                                         HHHHHHH
+                                          HHHHH
+                                           HHH
+                                            H
+    Expected output is same as output received from the code.
+
+    ##Test case 4:
+        - (stdin)i/p    -
+        - (stdout)o/p   -
+          H
+         HHH
+        HHHHH
+       HHHHHHH
+      HHHHHHHHH
+     HHHHHHHHHHH
+    HHHHHHHHHHHHH
+   HHHHHHHHHHHHHHH
+  HHHHHHHHHHHHHHHHH
+ HHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+                                            HHHHHHHHHHHHHHHHHHHHH
+                                             HHHHHHHHHHHHHHHHHHH
+                                              HHHHHHHHHHHHHHHHH
+                                               HHHHHHHHHHHHHHH
+                                                HHHHHHHHHHHHH
+                                                 HHHHHHHHHHH
+                                                  HHHHHHHHH
+                                                   HHHHHHH
+                                                    HHHHH
+                                                     HHH
+                                                      H
+        - Expected output   -
+          H
+         HHH
+        HHHHH
+       HHHHHHH
+      HHHHHHHHH
+     HHHHHHHHHHH
+    HHHHHHHHHHHHH
+   HHHHHHHHHHHHHHH
+  HHHHHHHHHHHHHHHHH
+ HHHHHHHHHHHHHHHHHHH
+HHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+     HHHHHHHHHHH                                 HHHHHHHHHHH
+                                            HHHHHHHHHHHHHHHHHHHHH
+                                             HHHHHHHHHHHHHHHHHHH
+                                              HHHHHHHHHHHHHHHHH
+                                               HHHHHHHHHHHHHHH
+                                                HHHHHHHHHHHHH
+                                                 HHHHHHHHHHH
+                                                  HHHHHHHHH
+                                                   HHHHHHH
+                                                    HHHHH
+                                                     HHH
+                                                      H
+     Expected output is same as output received from the code.
+
+     ##Test case 5:
+            - (stdin)i/p    -7
+            - (stdout)o/p   -
+      H
+     HHH
+    HHHHH
+   HHHHHHH
+  HHHHHHHHH
+ HHHHHHHHHHH
+HHHHHHHHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+                            HHHHHHHHHHHHH
+                             HHHHHHHHHHH
+                              HHHHHHHHH
+                               HHHHHHH
+                                HHHHH
+                                 HHH
+                                  H
+        -   expected output -
+      H
+     HHH
+    HHHHH
+   HHHHHHH
+  HHHHHHHHH
+ HHHHHHHHHHH
+HHHHHHHHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+   HHHHHHH                     HHHHHHH
+                            HHHHHHHHHHHHH
+                             HHHHHHHHHHH
+                              HHHHHHHHH
+                               HHHHHHH
+                                HHHHH
+                                 HHH
+                                  H
+    Expected output is same as output received from the code.

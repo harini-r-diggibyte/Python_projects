@@ -1,0 +1,39 @@
+This code prompts for date as an input in mm/dd/yyyy format.
+Output will be the day corresponding to the user entered date.
+
+##Test case 1:
+    - (stdin)i/p      - 08 05 2015
+    - (stdout)o/p     - WEDNESDAY
+    - Expected output - WEDNESDAY
+Expected output is same as output received from the code.
+
+##Test case 2:
+    - (stdin)i/p      - 02 29 2004
+    - (stdout)o/p     - SUNDAY
+    - Expected output - SUNDAY
+Expected output is same as output received from the code.
+
+##Test case 3:
+    - (stdin)i/p      - 08 05 2999
+    - (stdout)o/p     - MONDAY
+    - Expected output - MONDAY
+Expected output is same as output received from the code.
+
+##Test case 4:
+    - (stdin)i/p      - 12 25 2059
+    - (stdout)o/p     - THURSDAY
+    - Expected output - THURSDAY
+Expected output is same as output received from the code.
+
+##Test case 5:
+    - (stdin)i/p      - 02 13 2010
+    - (stdout)o/p     - SATURDAY
+    - Expected output - SATURDAY
+Expected output is same as output received from the code.
+
+##Test case 6:
+    - (stdin)i/p      - 04 06 2012
+    - (stdout)o/p     - FRIDAY
+    - Expected output - FRIDAY
+Expected output is same as output received from the code.
+

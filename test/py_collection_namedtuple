@@ -1,0 +1,371 @@
+This code prompts for user input for number of students.
+The user should then give the header as ID,MARKS,NAME,CLASS and corresponding values for student.
+Output will be the average marks of the list.
+
+##Test case 1:
+    - (stdin)i/p      -
+5
+ID         MARKS      NAME       CLASS
+1          97         Raymond    7
+2          50         Steven     4
+3          91         Adrian     9
+4          72         Stewart    5
+5          80         Peter      6
+    - (stdout)o/p     - 78.00
+    - Expected output - 78.00
+
+Expected output is same as output received from the code.
+
+##Test case 2:
+    - (stdin)i/p      -
+5
+MARKS      CLASS      NAME       ID
+92         2          Calum      1
+82         5          Scott      2
+94         2          Jason      3
+55         8          Glenn      4
+82         2          Fergus     5
+
+    - (stdout)o/p     - 81.00
+    - Expected output - 81.00
+
+Expected output is same as output received from the code.
+
+##Test case 3:
+    - (stdin)i/p      -
+5
+CLASS      NAME       MARKS      ID
+4          Iain       96         1
+2          Jeremy     77         2
+5          Derek      94         3
+4          Ryan       52         4
+3          Leslie     85         5
+    - (stdout)o/p     - 80.80
+    - Expected output - 80.80
+
+Expected output is same as output received from the code.
+
+##Test case 4:
+    - (stdin)i/p      -
+100
+CLASS      NAME       MARKS      ID
+9          Bernard    50         1
+3          Greig      61         2
+3          Jack       55         3
+2          Frank      50         4
+9          Charles    50         5
+3          Allan      85         6
+5          Gerard     59         7
+6          Lee        55         8
+3          Blair      95         9
+3          Liam       69         10
+5          Ronald     90         11
+5          Dominic    86         12
+5          Malcolm    84         13
+7          Hamish     63         14
+6          Rory       61         15
+3          Neil       91         16
+3          Walter     77         17
+6          Christian  81         18
+6          Samuel     74         19
+3          Alasdair   72         20
+5          Frank      89         21
+8          Niall      57         22
+3          Owen       93         23
+4          Paul       66         24
+7          Lindsay    74         25
+4          Blair      54         26
+9          Duncan     94         27
+8          Jeremy     57         28
+4          Archibald  81         29
+6          Shaun      79         30
+3          Geoffrey   50         31
+3          Angus      86         32
+3          Shaun      79         33
+7          Graham     87         34
+2          Bruce      79         35
+3          Norman     87         36
+9          Christian  94         37
+3          Graeme     50         38
+6          Russell    58         39
+6          Jeremy     68         40
+5          Martin     81         41
+6          George     62         42
+6          Nathan     93         43
+5          William    98         44
+5          Darren     92         45
+2          Callum     84         46
+6          Norman     52         47
+4          Antony     50         48
+6          Raymond    89         49
+9          Donald     88         50
+8          Walter     82         51
+3          Arthur     87         52
+4          Blair      72         53
+8          Fraser     71         54
+3          Frank      99         55
+6          Rory       91         56
+4          Frank      51         57
+5          Brian      76         58
+6          Dean       50         59
+8          Alister    87         60
+4          Alasdair   85         61
+6          Norman     97         62
+4          Duncan     69         63
+5          Gordon     89         64
+8          Malcolm    78         65
+9          Fergus     89         66
+3          Steven     59         67
+3          Francis    58         68
+4          Gregory    90         69
+8          Barry      50         70
+4          Sean       72         71
+3          Robin      58         72
+6          Dean       57         73
+3          Terry      58         74
+9          Grant      58         75
+8          Edward     53         76
+2          Mark       64         77
+7          William    98         78
+8          Marcus     67         79
+5          Bruce      68         80
+9          Patrick    91         81
+3          Duncan     72         82
+9          Arthur     68         83
+5          Damian     77         84
+9          Alistair   96         85
+3          Bernard    79         86
+4          Aaron      93         87
+7          Samuel     51         88
+9          Martin     98         89
+3          Jonathan   72         90
+8          Bernard    61         91
+9          Russell    99         92
+3          George     54         93
+4          Peter      80         94
+3          William    96         95
+3          Roderick   58         96
+8          Lee        77         97
+3          Damian     55         98
+9          Lee        70         99
+6          Norman     71         100
+    - (stdout)o/p     - 73.80
+    - Expected output - 73.80
+
+Expected output is same as output received from the code.
+
+##Test case 5:
+    - (stdin)i/p      -
+100
+MARKS      CLASS      NAME       ID
+59         3          Alister    1
+69         6          Ronald     2
+85         7          Martin     3
+92         6          Dylan      4
+57         5          Grant      5
+74         3          Glen       6
+58         5          Iain       7
+89         8          Gary       8
+74         2          Gregory    9
+83         9          Dean       10
+70         6          Bryan      11
+65         4          Jamie      12
+90         9          George     13
+73         3          Donald     14
+99         3          Jason      15
+92         3          Matthew    16
+90         2          Damian     17
+60         6          Charles    18
+94         8          James      19
+54         7          Robin      20
+73         3          Marc       21
+71         4          Fergus     22
+53         9          Martin     23
+69         5          Marcus     24
+77         4          Alastair   25
+89         8          Roy        26
+82         3          Geoffrey   27
+50         8          Ryan       28
+97         6          Ronald     29
+91         8          Daniel     30
+84         4          Jeremy     31
+89         3          John       32
+64         6          Kenneth    33
+92         6          Barrie     34
+96         7          Jack       35
+94         8          Ian        36
+58         2          Owen       37
+69         3          Nathan     38
+83         3          Ross       39
+81         8          Nicholas   40
+79         7          Robin      41
+85         9          Norman     42
+83         4          Donald     43
+80         8          Alastair   44
+74         7          Gavin      45
+80         3          Owen       46
+72         8          Archibald  47
+59         8          Timothy    48
+59         7          George     49
+63         8          Frank      50
+89         4          Gerard     51
+89         7          Bruce      52
+74         5          Benjamin   53
+90         6          Ross       54
+67         6          Ross       55
+53         8          Brendan    56
+93         9          James      57
+90         5          Angus      58
+83         3          George     59
+59         2          Murray     60
+53         2          Edward     61
+86         2          Douglas    62
+97         9          Iain       63
+84         3          Lee        64
+74         8          Robert     65
+57         7          Ewen       66
+97         6          Steven     67
+50         9          Gavin      68
+79         2          Martin     69
+73         6          Marc       70
+62         2          Antony     71
+66         3          Peter      72
+71         5          Richard    73
+56         6          Niall      74
+94         3          Anthony    75
+62         6          Ewan       76
+90         5          Frank      77
+88         8          Lee        78
+80         8          Scott      79
+77         2          Nicholas   80
+63         8          Roderick   81
+72         7          Christian  82
+56         9          Jason      83
+87         5          Alan       84
+77         2          Jason      85
+54         9          Craig      86
+76         7          Neil       87
+53         7          Barrie     88
+75         3          William    89
+79         7          Edward     90
+64         8          Fraser     91
+92         9          Jonathan   92
+96         6          David      93
+52         4          Robin      94
+96         8          James      95
+53         2          Brendan    96
+88         2          Angus      97
+81         5          Norman     98
+58         7          Paul       99
+59         3          Neil       100
+    - (stdout)o/p     - 75.37
+    - Expected output - 75.37
+Expected output is same as output received from the code.
+
+##Test case 6:
+    - (stdin)i/p      -
+100
+ID         MARKS      NAME       CLASS
+1          53         Alastair   7
+2          57         David      8
+3          99         Lindsay    9
+4          66         Jeremy     4
+5          69         Robert     9
+6          51         William    6
+7          53         Jon        9
+8          54         Michael    8
+9          76         Gary       9
+10         94         Kenneth    3
+11         63         Andrew     3
+12         79         Desmond    3
+13         76         Stewart    9
+14         63         Patrick    7
+15         97         Terry      4
+16         83         Bryan      4
+17         71         Dylan      3
+18         74         Euan       4
+19         71         Callum     3
+20         58         Dean       9
+21         93         Duncan     9
+22         58         Damian     4
+23         62         Keith      9
+24         76         Nathan     6
+25         66         Barry      2
+26         85         Lee        4
+27         55         Adam       9
+28         94         Lewis      8
+29         66         James      9
+30         52         Hugh       9
+31         85         Fergus     3
+32         70         Patrick    3
+33         80         Patrick    8
+34         85         Jon        5
+35         69         Fraser     5
+36         50         Joseph     2
+37         95         Wayne      5
+38         96         Cameron    5
+39         50         George     3
+40         71         Darren     2
+41         97         Robert     4
+42         59         Barry      8
+43         53         Matthew    3
+44         87         Alexander  8
+45         57         Angus      3
+46         50         Gerald     5
+47         89         Greig      7
+48         61         Colin      3
+49         55         Rory       8
+50         87         Hugh       9
+51         55         Darren     5
+52         86         Sean       7
+53         52         Paul       2
+54         67         Trevor     5
+55         79         Barry      3
+56         68         Bernard    9
+57         77         Bruce      2
+58         89         Damian     7
+59         70         Steven     5
+60         59         Vincent    2
+61         78         Peter      4
+62         73         Leslie     3
+63         54         Iain       9
+64         50         Marc       2
+65         64         Patrick    9
+66         66         Glen       6
+67         50         George     6
+68         76         Graham     6
+69         61         Stewart    9
+70         94         Alastair   9
+71         89         Ewen       8
+72         80         Hugh       4
+73         61         Russell    9
+74         52         Calum      4
+75         56         Jack       8
+76         75         Owen       6
+77         95         Cameron    4
+78         80         Colin      2
+79         52         Cameron    6
+80         76         Arthur     5
+81         56         Lewis      9
+82         69         Michael    8
+83         91         Glen       5
+84         94         Trevor     3
+85         80         Aaron      5
+86         91         Arthur     5
+87         78         Henry      7
+88         67         Grant      3
+89         63         Donald     3
+90         62         Trevor     4
+91         79         Barry      4
+92         70         Eric       8
+93         91         Jonathan   7
+94         96         Fraser     2
+95         61         Lee        8
+96         82         Donald     6
+97         56         David      8
+98         89         Bryan      8
+99         90         Eric       2
+100        82         Sean       3
+    - (stdout)o/p     - 71.91
+    - Expected output - 71.91
+Expected output is same as output received from the code.
