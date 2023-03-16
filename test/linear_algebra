@@ -1,0 +1,28 @@
+You are given a square matrix (say A) with dimensions N*N.
+Task is to find the determinant.
+Note : Round the determinant value to 2 decimal places.
+
+##Test case 1:
+    - (stdin)i/p -      2
+                        1.1 1.1
+                        1.1 1.1
+    - (stdout)o/p -     0.0
+    - Expected output - 0.0
+Expected output is same as output received from code.
+
+##Test case 2:
+    - (stdin)i/p -      2
+                        1.1 1.1
+                        1.1 1.2
+    - (stdout)o/p -     0.11
+    - Expected output - 0.11
+Expected output is same as output received from code.
+
+##Test case 3:
+    - (stdin)i/p -      3
+                        1 2 3
+                        4 5 6
+                        1 2 1
+    - (stdout)o/p -     6.0
+    - Expected output - 6.0
+Expected output is same as output received from code.

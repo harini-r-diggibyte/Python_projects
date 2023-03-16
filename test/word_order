@@ -1,0 +1,43 @@
+you are given N words.
+Some words amy repeat.For each word, output its number of occurrences.
+The output order should correspond with the input order of appearance of word.
+
+##Test case 1:
+    - (stdin)i/p -      4
+                        bcdef
+                        abcdefg
+                        bcde
+                        bcdef
+    - (stdout)o/p -     3
+                        2 1 1
+    - Expected output - 3
+                        2 1 1
+Expected output is same as output received from code.
+
+##Test case 2:
+    - (stdin)i/p -      5
+                        ghtgf
+                        shdfsgfiushf
+                        dfksgisdf
+                        gdfushfu
+                        sdushfdushfj
+    - (stdout)o/p -     5
+                        1 1 1 1 1
+    - Expected output - 5
+                        1 1 1 1 1
+Expected output is same as output received from code.
+
+##Test case 3:
+    - (stdin)i/p -      7
+                        ddh
+                        dhfs
+                        ijuy
+                        jsgu
+                        ddh
+                        ijuy
+                        sadfa
+    - (stdout)o/p -     5
+                        2 1 2 1 1
+    - Expected output - 5
+                        2 1 2 1 1
+Expected output is same as output received from code.

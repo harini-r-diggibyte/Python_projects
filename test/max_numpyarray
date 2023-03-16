@@ -1,0 +1,31 @@
+You are given a 2 dimensional array N*M.
+Task is to perform the min function over axis 1 and then find max of that.
+
+##Test case 1:
+    - (stdin)i/p -      4 2
+                        2 5
+                        3 7
+                        1 3
+                        4 0
+    - (stdout)o/p -     3
+    - Expected output - 3
+Expected output is same as output received from code.
+
+##Test case 2:
+    - (stdin)i/p -      4 2
+                        2 5
+                        8 7
+                        1 4
+                        4 0
+    - (stdout)o/p -     7
+    - Expected output - 7
+Expected output is same as output received from code.
+
+##Test case 3:
+    - (stdin)i/p -      3 2
+                        2 5
+                        1 4
+                        4 0
+    - (stdout)o/p -     2
+    - Expected output - 2
+Expected output is same as output received from code.
