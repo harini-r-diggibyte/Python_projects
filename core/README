@@ -1,0 +1,90 @@
+##Project 1: PILING UP
+There is a horizontal row of  cubes. The length of each cube is given. You need to create a new vertical pile of cubes.
+The new pile should follow these directions: if cube[i] is on top of cube[j] then sideLength[j]>= sideLength[i].
+When stacking the cubes, you can only pick up either the leftmost or the rightmost cube each time.
+Print Yes if it is possible to stack the cubes. Otherwise, print No.
+
+INPUT FORMAT
+The first line contains a single integer T, the number of test cases.
+For each test case, there are 2 lines.
+The first line of each test case contains n, the number of cubes.
+The second line contains n space separated integers, denoting the sideLengths of each cube in that order.
+
+CONSTRAINTS
+1<=T<=5
+1<=n<=pow(10,5)
+1<=sideLength<=pow(2,31)
+
+OUTPUT FORMAT
+For each test case, output a single line containing either Yes or No.
+
+EXPLANATION
+
+- We use 'deque' concept from 'collections' to implement this problem.
+  from collection import deque
+
+- We prompt for user input as discussed in section input format.
+- Sidelength integers are parsed as deque.
+- (n, sidelength) are passed to the function piling_up
+
+piling_up function
+- Step 1: Right-most and left-most elements are taken.Greatest is placed in a stack
+- Step 2: choose another left or right most.
+- Step 3: Both the right-most, left-most are compared with stack_element and least is again moved to stack.
+- Step 4: repeat from Step 1
+- Step 5: process terminates on below cases.
+        case 1: when all the elements are moved into stack.
+        case 2: cube[i]>cube[j] such that cube[i] is to be placed on stack(top_element-cube[j]).
+
+##Project 2: Iterables_iterators
+
+You are given a list of N lowercase English letters.
+For a given integer K, you can select any K indices (assume 1-based indexing) with a uniform probability from the list.
+Find the probability that at least one of the K indices selected will contain the letter: 'a'.
+
+INPUT FORMAT
+The input consists of three lines.
+The first line contains the integer N, denoting the length of the list.
+The next line consists of N space-separated lowercase English letters, denoting the elements of the list.
+The last line of input contains the integer K, denoting the number of indices to be selected.
+
+OUTPUT FORMAT
+Output a single line consisting of the probability that at least one of the K indices selected contains the letter:'a'.
+
+CONSTRAINTS
+1<=N<=10
+1<=K<=N
+All letters must be in lower case English letters.
+
+EXPLANATION
+Lets us take an example of N=4. K=2.
+All possible unordered tuples of length 2 comprising of indices from 1 to 4 are:
+(1,2)(1,3)(1,4)(2,3)(2,4)(3,4)
+Out of these 6 combinations,5 of them contain either index 1 or index 2 which are the indices that contain the letter 'a'.
+Hence, the answer is (5/6) which is 0.8333333333.
+
+##Project 3: Validating email address
+You are given an integer N followed by N email addresses.
+Your task is to print a list containing only valid email addresses in lexicographical order.
+
+INPUT FORMAT
+The first line of input is the integer N, the number of email addresses.
+N lines follow, each containing a string.
+
+CONSTRAINTS
+Each line is a non-empty string.
+
+OUTPUT FORMAT
+Valid email id which met the conditions listed in explanation part.
+
+EXPLANATION
+This code has a function named "fun" has string "s": the string to test as parameter.
+Returns boolean: whether the string is a valid email or not.
+If the result is true, then the email addresses are sorted and printed.
+
+Valid email addresses printed in output must follow these rules:
+- It must have the username@websitename.extension format type.
+- The username can only contain letters, digits, dashes and underscores [a-z],[A-Z],[0-9],_,-
+- The website name can only have letters and digits [a-z],[A-Z],[0-9].
+- The extension can only contain letters [a-z],[A-Z].
+- The maximum length of the extension is 3.

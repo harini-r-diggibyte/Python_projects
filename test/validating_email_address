@@ -1,0 +1,49 @@
+Below are test cases for the validating email address problem.
+
+##Test case 1:
+        - (stdin)i/p     - 3
+                           lara@hackerrank.com
+                           brian-23@hackerrank.com
+                           britts_54@hackerrank.com
+        -(stdout)o/p     - ['brian-23@hackerrank.com', 'britts_54@hackerrank.com', 'lara@hackerrank.com']
+        -Expected Output - ['brian-23@hackerrank.com', 'britts_54@hackerrank.com', 'lara@hackerrank.com']
+Expected output is same as output received from the code.
+
+##Test case 2:
+        - (stdin)i/p     - 2
+                           harsh@gmail
+                           iota_98@hackerrank.com
+        -(stdout)o/p     - ['iota_98@hackerrank.com']
+        -Expected Output - ['iota_98@hackerrank.com']
+Expected output is same as output received from the code.
+
+##Test case 3:
+        - (stdin)i/p     - 4
+                           example@email.com
+                           example.first.middle.lastname@email.com
+                           example@subdomain.email.com
+                           example+firstname+lastname@email.com
+        -(stdout)o/p     - ['example@email.com']
+        -Expected Output - ['example@email.com']
+Expected output is same as output received from the code.
+
+##Test case 4:
+        - (stdin)i/p     - 3
+                           example@234.234.234.234
+                           example@[234.234.234.234]
+                           “example”@email.com
+        -(stdout)o/p     - []
+        -Expected Output - []
+Expected output is same as output received from the code.
+
+
+##Test case 5:
+        - (stdin)i/p     - 4
+                           student1@gmail.com
+                           0987654321a@example.com
+                           example@email-one.com
+                           example@email.name
+        -(stdout)o/p     - ['0987654321a@example.com', 'student1@gmail.com']
+        -Expected Output - ['0987654321a@example.com', 'student1@gmail.com']
+Expected output is same as output received from the code.
+
