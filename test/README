@@ -5,8 +5,11 @@ Every project contains number of test cases, which discusses about
     - Expected output.
 It is also mentioned below every test case that, whether the conditions are met expected output matches the output from the code or not.
 
-##Project 1: PILING UP
+##Project 1 ###
+PILING UP
 
-##PROJECT 2: ITERABLES AND ITERATORS
+##PROJECT 2 ###
+ITERABLES AND ITERATORS
 
-##Project 1: VALIDATING EMAIL ADDRESS
+##Project 3 ###
+VALIDATING EMAIL ADDRESS
